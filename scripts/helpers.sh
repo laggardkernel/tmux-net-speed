@@ -3,8 +3,8 @@
 ##
 # Varialbes
 ##
-DOWNLOAD_FILE="/tmp/tmux_net_speed.download"
-UPLOAD_FILE="/tmp/tmux_net_speed.upload"
+DOWNLOAD_FILE="/tmp/tmux-$UID/tmux_net_speed.download"
+UPLOAD_FILE="/tmp/tmux-$UID/tmux_net_speed.upload"
 
 get_tmux_option() {
     local option=$1
